@@ -7,8 +7,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// 自定义结构体绑定表单请求参数
-
 type Person struct {
 	Name     string    `form:"name"`
 	Address  string    `form:"address"`
